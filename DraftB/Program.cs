@@ -12,8 +12,10 @@ namespace DraftB
             Console.WriteLine(x);
             KidShoe kid1 = new KidShoe("nike", 34.5, "blue", 100D, true);
             WomenShoe women1 = new WomenShoe();
-            Shoe[] storeShoes = { kid1, women1 }; 
-            Console.WriteLine(storeShoes);
+            Shoe[] storeShoes = { kid1, women1 };
+            Storage store = new Storage();
+            
+            //Console.WriteLine(storeShoes);
         }
     }
 }

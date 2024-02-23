@@ -13,8 +13,17 @@ public class Shoe
         this.size = size;
         this.color = color;
         this.price = price;
-
+        
+     
     }
+    public virtual double CalcPrice()
+    {
+        // return the final price of shoe
+        double finalPrice = 0;
+
+        return finalPrice;
+    }
+
     public Shoe()
     {
 

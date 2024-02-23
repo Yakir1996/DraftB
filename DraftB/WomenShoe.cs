@@ -20,6 +20,13 @@ namespace DraftB
         {
 
         }
+        public override double CalcPrice()
+        {
+            // return the final price of shoe
+            double finalPrice = base.CalcPrice();
+
+            return finalPrice;
+        }
     }
 
 }
